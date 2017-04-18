@@ -28,7 +28,7 @@ public class Employee {
 		this.salary = salary;
 	}
 
-	public void getInformation() {
+	public void getInformation() {  //-> 부서가 들어가도록 
 		System.out.println( "이름:" + name + "연봉:" + salary );
 	}
 }
